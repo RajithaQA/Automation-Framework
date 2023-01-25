@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true" name="C:/Users/Raji/IdeaProjects/SelAutomationProj2">
+        <classes>
+            <class name="PageTestPackage.HomePageTest">
+                <methods>
+                    <include name="Testlogo"/>
+                    <include name="TestFreeStudent"/>
+                    <include name="verifylogin"/>
+                </methods>
+            </class>
+            <class name="PageTestPackage.LoginPageTest">
+                <methods><include name="TestLogin"/>
+                </methods>
+            </class>
+            <class name="PageTestPackage.LandingPageTest">
+                <methods><include name="Testwbl"/>
+                        <include name="TestMailid"/>
+                </methods>
+            </class>
+
+        </classes>
+    </test>
+</suite>
